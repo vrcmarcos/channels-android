@@ -27,21 +27,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         this.connect();
-
-//        final Handler h = new Handler();
-//        final int delay = 5000;
-//
-//        h.postDelayed(new Runnable(){
-//            public void run(){
-//                Log.d(TAG, "Checking socket connection...");
-//                if( (socket == null || !socket.isConnected()) && !JOINING) {
-//                    JOINING = true;
-//                    connect();
-//                    JOINING = false;
-//                }
-//                h.postDelayed(this, delay);
-//            }
-//        }, delay);
     }
 
     private void connect() {
